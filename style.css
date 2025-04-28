@@ -27,3 +27,71 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+#jordans-1 {
+  height: 400px;
+  width: 600px;
+}
+
+#jordans-2 {
+  height: 400px;
+  width: 600px;
+}
+
+body {
+  width: 50%;
+  background-color: rgb(243, 183, 106);
+  background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+  background-size: cover;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(109, 0, 251);
+  text-shadow: 5px 3px 10px rgb(219, 255, 57);
+  text-decoration: underline;
+  background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+  border-radius: 0.5em;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Copperplate, fantasy;
+  color: white;
+}
+
+#jordans-1-desc {
+  border: solid;
+  background-color: rgb(116, 201, 241);
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+#jordans-2-desc {
+  border: solid rgb(13, 110, 0);
+  background-color: rgb(251, 64, 64);
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+#row1 {
+  width: 70%;
+}
+
+#row1-section1 {
+  height: auto;
+  width: 100%;
+  box-shadow: 4px 0px 4px blue;
+}
+
+#row2 {
+  width: 70%;
+}
+
+#row2-section1 {
+  height: auto;
+  width: 100%;
+  box-shadow: -4px 0px 4px red;
+}
